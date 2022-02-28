@@ -13,9 +13,9 @@ import {
             bg={useColorModeValue('white', 'gray.700')}
             py={8}>
             <Stack spacing={4}>
-              <FormControl id="email">
-                <FormLabel>Email address</FormLabel>
-                <Input type="email" />
+              <FormControl id="username">
+                <FormLabel>Username</FormLabel>
+                <Input type="text" />
               </FormControl>
               <FormControl id="password">
                 <FormLabel>Password</FormLabel>
